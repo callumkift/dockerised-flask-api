@@ -1,2 +1,4 @@
 model:
-  file_path: ""
+  directory: "/app/models"
+  pickled_object: "pickled_object.pk"
+  pipeline_key: "pipeline"

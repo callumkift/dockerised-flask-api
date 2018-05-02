@@ -1,4 +1,13 @@
-.PHONY: deploy install install-dev lint test test-all type-check
+.PHONY: build-docker create-requirements create-requirements-dev deploy install install-dev lint test test-all type-check
+
+build-docker:
+	echo 'not implemented yet'
+
+create-requirements:
+	pipenv lock -r > requirements.txt
+
+create-requirements-dev:
+	pipenv lock -r --dev > requirements.txt
 
 deploy:
 	echo 'not implemented yet'

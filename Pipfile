@@ -4,12 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+flask = "*"
+pyyaml = "*"
+pandas = "*"
+scikit-learn = "*"
 
 [dev-packages]
 mypy = "*"
 "flake8" = "*"
 pytest = "*"
 flask = "*"
+pyyaml = "*"
+pandas = "*"
+scikit-learn = "*"
 
 [requires]
 python_version = "3.6"
