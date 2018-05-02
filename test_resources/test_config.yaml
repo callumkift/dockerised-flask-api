@@ -1,0 +1,4 @@
+model:
+  directory: "test_resources/pickles"
+  pickled_object: "pickled_object.pk"
+  pipeline_key: "pipeline"
